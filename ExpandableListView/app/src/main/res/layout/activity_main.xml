@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="25dp"
+        android:background="#D3D3D3"
+        android:text="My ExpandableListView Show"/>
+
+    <!--这个默认的GroupIndicator 还是直接置空吧，默认的太鸡肋-->
+    <ExpandableListView
+        android:id="@+id/elv_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#A9A9A9"
+        android:dividerHeight="2dp"
+        android:groupIndicator="@null">
+
+    </ExpandableListView>
+</LinearLayout>
