@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatActivity">
+    <TableLayout
+        android:stretchColumns="*"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_marginLeft="16dp">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:text="单词"
+                />
+            <TextView
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="级别"
+                />
+            <TextView
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="测试"
+                />
+            <TextView
+                android:layout_width="1dip"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="正确"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:background="#FCFCFC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/listView"
+        android:padding="20dp"/>
+
+</LinearLayout>

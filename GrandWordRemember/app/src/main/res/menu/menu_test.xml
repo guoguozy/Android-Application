@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lenovo.granddictionary.MainActivity">
+
+    <item android:id="@+id/test"
+        android:title="开始测验"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/menu1"
+        android:title="开始复习"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu2"
+        android:title="清除测试数据"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+</menu>
