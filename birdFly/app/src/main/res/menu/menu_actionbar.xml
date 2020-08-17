@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lenovo.granddictionary.MainActivity">
+
+
+    <item
+        android:id="@+id/start"
+        android:title="开始录像"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/end"
+        android:orderInCategory="100"
+        android:title="结束录像"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/review"
+        android:orderInCategory="110"
+        android:title="录像回放"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/endreview"
+        android:orderInCategory="120"
+        android:title="结束回放"
+        app:showAsAction="never" />
+
+</menu>
