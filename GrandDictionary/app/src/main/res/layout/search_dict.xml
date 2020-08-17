@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/studentForm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <TableRow
+        android:padding="10dp"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单词:"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/searched_word"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:hint="请填写单词"
+            android:textSize="20sp"
+            android:selectAllOnFocus="true"
+            android:layout_weight="1"/>
+    </TableRow>
+</TableLayout>
+

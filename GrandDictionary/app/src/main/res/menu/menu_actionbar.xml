@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lenovo.granddictionary.MainActivity">
+
+    <item android:id="@+id/action1"
+        android:title="action1"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action2"
+        android:title="action2"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/download"
+        android:orderInCategory="100"
+        android:title="下载单词"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/display"
+        android:orderInCategory="100"
+        android:title="显示词义"
+        android:checkable="true"
+        android:checked="false"
+        app:showAsAction="never" />
+</menu>
